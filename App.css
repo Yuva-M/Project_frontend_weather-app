@@ -1,0 +1,249 @@
+* { 
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+} 
+
+
+  
+body {
+	background-image: url(pexels-pixabay-531767.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative; /* This is needed for absolute positioning */
+  }
+  
+  .app-name {
+	font-size: 2.3rem;
+	color:rgb(252, 251, 248);
+	margin-bottom: 16px;
+	text-align: center;
+	
+  }
+  
+  .App {
+	display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 190px; 
+    min-height: 90px; 
+	margin: 0 auto; 
+    text-align: center; 
+    border-radius: 30px; 
+    padding-bottom: 32px; 
+    
+	   
+}
+  
+  .city-search {
+	width: 100%;
+	max-width: 400px;
+	box-sizing: border-box;
+	border: 2px solid rgb(14, 1, 26);
+	outline: none;
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 12px 40px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	color: black;
+  }
+  
+  .city-search:focus {
+	width: 100%;
+	background-color: rgba(246, 246, 246, 0.7);
+  }
+  
+  .city-name {
+	font-size: 1.5rem;
+	color:rgb(12, 5, 0);
+	margin-bottom: 8px;
+  }
+  
+  .date {
+	font-size: 1.25em;
+	font-weight: 500;
+	color:rgb(13, 6, 0);
+  }
+  
+  .icon-temp {
+	font-size: 3rem;
+	font-weight: 700;
+	color:rgb(10, 4, 0);
+	text-align: center;
+  }
+  
+  .deg {
+	font-size: 1.3rem;
+	vertical-align: super;
+	
+  }
+  
+  .des-wind {
+	font-weight: 500;
+	color: #f0eaea;
+  }
+  
+  .error-message {
+	display: block;
+	text-align: center;
+	color: crimson;
+	font-size: 24px;
+	margin-top: auto;
+  }
+  
+  .Loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  .Loader>div {
+	margin: 0 auto;
+  }
+  
+  .weather-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .weather-icon img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px rgba(32, 2, 2, 0.874);
+  }
+  
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  .APP {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	min-height: 440px;
+	text-align: center;
+	margin: 128px auto;
+	border-radius: 20px;
+	padding-bottom: 32px;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+	background-color:  rgba(53, 161, 249, 0.6);
+  }
+		  
+  
+  .App {
+	font-family: sans-serif;
+	width: 100%;
+	min-height: 100vh;
+  }
+  
+  .navbar {
+	width: 100%;
+	min-height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color:white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	position: fixed; 
+	top: 0; 
+	z-index: 100; 
+	
+	height: 60px;
+  }
+  
+  .App .navbar .nav-links{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	font-size: large;
+	
+  }
+  
+  .App .navbar .nav-links > a:hover,
+  .App .navbar .nav-links > a:focus {
+	color: #fff;
+	text-decoration: none;
+	font-size: large;
+	background-color: rgba(240, 241, 240, 0.5); /* Adjust the opacity here */
+	outline: 1px solid #fafafa;
+  }
+  .App .navbar .nav-links > a {
+	color: #fff;
+	text-decoration: none;
+	font-size: large;
+	padding: 10px;
+  }
+  
+  
+  
+  .WeatherAppContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+    
+	
+	
+}
+  
+.login-signup-container {
+	max-width: 400px;
+	width: 100%;
+	padding: 20px;
+	background-color:  rgb(255, 238, 192);
+	border-radius: 8px;
+	margin: 0 auto; 
+	text-align: center;
+	color: rgb(36, 2, 2);
+	text-shadow:black;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	color: rgb(34, 1, 1);
+  }
+  
+  .label {
+	margin-bottom: 8px;
+  }
+  
+  input {
+	padding: 8px;
+	margin-bottom: 16px;
+	width: 100%; 
+	box-sizing: border-box;
+  }
+  
+  button {
+	background-color: rgb(105, 167, 105);
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%; 
+	box-sizing: border-box;
+	margin-top: 8px; 
+  }
+  
+  button:hover {
+	background-color:green;
+  }
+  
+  p {
+	margin-top: 16px;
+	cursor: pointer;
+	color: #1e0101;
+  }
+  
